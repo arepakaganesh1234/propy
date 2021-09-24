@@ -1,0 +1,8 @@
+name = input() #Entering String give spaces between string Like : hi hello
+n=name.split()
+for i in range(len(n)):
+    if i<len(n):
+        f_n=n[i]
+        f_n=f_n.capitalize()
+    print(f_n,end=' ')
+        
