@@ -1,0 +1,5 @@
+name = (input()).split()
+for i in range(len(name)):
+    l_name = name[i]
+    l_name = l_name[-1]
+    print(l_name,end=" ")
